@@ -1,0 +1,125 @@
+.card {
+  background-color: #fff;
+  width: 100%;
+  height: 350px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  line-height: 1;
+}
+
+.profileStyles {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.follow {
+  height: 16px;
+  width: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardWrapper {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .cardWrapper {
+    width: 96%;
+  }
+  .delete {
+    width: 47%;
+  }
+  .unfollowStyles {
+    width: 47%;
+  }
+  .followStyles {
+    width: 47%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .cardWrapper {
+    width: 47%;
+  }
+  .delete {
+    width: 47%;
+  }
+  .unfollowStyles {
+    width: 47%;
+  }
+  .followStyles {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardWrapper {
+    width: 23%;
+  }
+  .delete {
+    width: 45%;
+  }
+  .unfollowStyles {
+    width: 45%;
+  }
+  .followStyles {
+    width: 45%;
+  }
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexContainer span {
+  margin-right: 5px;
+}
+
+.name {
+  flex-grow: 1;
+}
+.profileContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.followStyles {
+  background-color: #228be6;
+  color: #fff;
+}
+
+.unfollowStyles {
+  border: 1px #868e96 solid;
+  color: #000;
+}
+
+.links {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  color: #868e96;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
